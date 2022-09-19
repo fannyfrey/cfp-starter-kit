@@ -6,6 +6,7 @@ import { GlobalContext } from "@context/global-context";
 
 const ResultPage = () => {
   const { context, setContext } = useContext(GlobalContext);
+
   return (
     <Layout>
       <div className="result">
