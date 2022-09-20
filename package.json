@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "gatsby": "^4.23.0",
-    "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-hotjar": "^1.1.1",
     "gatsby-plugin-image": "^2.23.0",
     "gatsby-plugin-sass": "^5.23.0",

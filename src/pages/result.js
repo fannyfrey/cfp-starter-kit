@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 
-import Layout from "@components/base/Layout";
+import Layout from "../components/Layout";
 
-import { GlobalContext } from "@context/global-context";
+import { GlobalContext } from "../context/global-context";
 
 const ResultPage = () => {
   const { context, setContext } = useContext(GlobalContext);

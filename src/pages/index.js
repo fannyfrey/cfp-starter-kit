@@ -2,11 +2,11 @@ import React, { useContext, useState } from "react";
 
 import { StaticImage } from "gatsby-plugin-image";
 
-import Layout from "@components/base/Layout";
-import Input from "@components/base/Input";
-import Button from "@components/base/Button";
+import Layout from "../components/Layout";
+import Input from "../components/Input";
+import Button from "../components/Button";
 
-import { GlobalContext } from "@context/global-context";
+import { GlobalContext } from "../context/global-context";
 
 const IndexPage = () => {
   const { context, setContext } = useContext(GlobalContext);
