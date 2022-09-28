@@ -1,7 +1,5 @@
 import React, { useContext, useState } from "react";
 
-import { StaticImage } from "gatsby-plugin-image";
-
 import Layout from "../components/Layout";
 import Input from "../components/Input";
 import Button from "../components/Button";
@@ -9,7 +7,7 @@ import Button from "../components/Button";
 import { GlobalContext } from "../context/global-context";
 
 const IndexPage = () => {
-  const { context, setContext } = useContext(GlobalContext);
+  const { setContext } = useContext(GlobalContext);
   const [inputState, setInputState] = useState({
     name: "",
     mission: "",
@@ -28,10 +26,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <div className="home-container">
-        <StaticImage
-          src="../../static/images/hello-world.png"
-          alt=""
-        ></StaticImage>
+        <img src="/images/hello-world.png" width="100%" alt="" />
 
         <p className="home-input__header">Name</p>
         <Input id="name" className="home-input" onChange={handleInputChange} />

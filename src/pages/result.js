@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import { GlobalContext } from "../context/global-context";
 
 const ResultPage = () => {
-  const { context, setContext } = useContext(GlobalContext);
+  const { context } = useContext(GlobalContext);
 
   return (
     <Layout>
