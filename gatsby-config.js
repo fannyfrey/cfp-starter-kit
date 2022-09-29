@@ -9,7 +9,7 @@ module.exports = {
       resolve: `gatsby-plugin-hotjar`,
       options: {
         includeInDevelopment: true,
-        id: 3163029,
+        id: 3179438,
         sv: 6,
       },
     },
