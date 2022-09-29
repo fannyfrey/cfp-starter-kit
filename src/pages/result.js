@@ -11,6 +11,7 @@ const ResultPage = () => {
     <Layout>
       <div className="result">
         <h1>Name: {context.name}</h1>
+        <h1>Nickname: {context.nickname}</h1>
         <h1>Mission: {context.mission}</h1>
       </div>
     </Layout>

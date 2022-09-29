@@ -10,6 +10,7 @@ const IndexPage = () => {
   const { setContext } = useContext(GlobalContext);
   const [inputState, setInputState] = useState({
     name: "",
+    nickname: "",
     mission: "",
   });
 
@@ -30,6 +31,9 @@ const IndexPage = () => {
 
         <p className="home-input__header">Name</p>
         <Input id="name" className="home-input" onChange={handleInputChange} />
+
+        <p className="home-input__header">Nickname</p>
+        <Input id="nickname" className="home-input" onChange={handleInputChange} />
 
         <p className="home-input__header">Mission</p>
         <Input
